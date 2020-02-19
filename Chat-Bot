@@ -2,7 +2,7 @@ package bot;
 
 import java.util.Scanner;
  class SimpleBot {
-    final static Scanner scanner = new Scanner(System.in); // Do not change this line
+    final static Scanner scanner = new Scanner(System.in); 
 
     public static void main(String[] args) {
         greet("Aid", "2018"); // change it as you need
@@ -57,7 +57,6 @@ import java.util.Scanner;
                 break;
             }
             System.out.println("Please, try again."); }
-        // write your code here
     } */
 
      static void test() {
@@ -75,10 +74,10 @@ import java.util.Scanner;
              else{ System.out.println("Please try again.");
              }
          }
-         while(userAnswer!=2); // write your code here
+         while(userAnswer!=2);
      }
 
      static void end() {
-        System.out.println("Congratulations, have a nice day!"); // Do not change this text
+        System.out.println("Congratulations, have a nice day!"); 
     }
 }
